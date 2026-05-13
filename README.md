@@ -12,5 +12,5 @@ env - windows · vscodium · alacritty · cargo
 ## currently building
 
 **[cabbage](https://gitlab.com/moloo4ni/cabbage)** - local-first markdown notes app built on tauri + rust.  
-stores notes as plain `.md` files in a git repo. versioning, backlinks, and offline sync work.  
-up next: codemirror 6 editor, graph view.
+stores notes as plain `.md` files in a git repo. versioning, backlinks, offline sync, and codemirror 6 editor with `[[wiki-link]]` navigation work.  
+up next: note history view, graph view.
