@@ -1,4 +1,4 @@
-## <img src="img.png" width="256" height="256" align="right"/> moloo4ni
+## moloo4ni
 
 rust · figma · web
 
