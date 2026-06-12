@@ -11,8 +11,9 @@ env - arch linux · vscodium · kitty · cargo
 
 ## projects
 
-**[cabbage](https://github.com/moloo4ni/cabbage)** — local-first markdown notes app built on tauri + rust.  
-stores notes as plain `.md` files in a git repo. versioning, backlinks, offline sync, codemirror 6 editor, `[[wiki-link]]` navigation, note history with version restore, graph view (canvas force-directed wikilink graph), and native rust git bindings via libgit2 (no system git binary required) all work.
+**[cabbage](https://github.com/moloo4ni/cabbage)** — local-first markdown notes app (tauri + rust + svelte).  
+stores notes as plain `.md` files in a git repo — no proprietary database or cloud lock-in.  
+features: codemirror 6 editor, auto-save, [[wiki-link]] navigation, backlinks, note history with version restore, force-directed graph view, git sync via native libgit2 (no system git binary required).
 
 **[statusbar-fix-obsidian](https://github.com/moloo4ni/statusbar-fix-obsidian)** — magisk/ksu/apatch module fixing status bar height, qs offsets and lock screen layout on redmi note 14 pro 4g (obsidian) running lineageos gsi. dual rro overlays, notch killer, amoled burn-in protection, gsi conflict resolution.
 
