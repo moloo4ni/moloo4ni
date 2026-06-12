@@ -13,7 +13,12 @@ env - arch linux · vscodium · kitty · cargo
 
 **[cabbage](https://github.com/moloo4ni/cabbage)** — local-first markdown notes app (tauri + rust + svelte).  
 stores notes as plain `.md` files in a git repo — no proprietary database or cloud lock-in.  
-features: codemirror 6 editor, auto-save, [[wiki-link]] navigation, backlinks, note history with version restore, force-directed graph view, git sync via native libgit2 (no system git binary required).
+features: codemirror 6 editor, auto-save, [[wiki-link]] navigation, backlinks, note history with version restore, force-directed graph view, git sync via native libgit2 (no system git binary required).  
+dark theme (GitHub Dark palette, localStorage-persisted, system preference detection, Sun/Moon toggle in Settings dropdown).  
+all icons replaced with @lucide/svelte (no text/emoji icons).  
+vault persistence — last opened vault auto-reopens on startup.  
+full-text search — debounced search input in sidebar, searches filenames + content, Ctrl+P / Cmd+P hotkey.  
+sync progress — live stage text on sync button during git sync.
 
 **[statusbar-fix-obsidian](https://github.com/moloo4ni/statusbar-fix-obsidian)** — magisk/ksu/apatch module fixing status bar height, qs offsets and lock screen layout on redmi note 14 pro 4g (obsidian) running lineageos gsi. dual rro overlays, notch killer, amoled burn-in protection, gsi conflict resolution.
 
