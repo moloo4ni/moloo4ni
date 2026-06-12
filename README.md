@@ -24,4 +24,4 @@ sync progress — live stage text on sync button during git sync.
 
 **[fod-fix-obsidian](https://github.com/moloo4ni/fod-fix-obsidian)** — magisk/ksu/apatch module enabling under-display fingerprint sensor on redmi note 14 pro 4g (obsidian) with lineageos gsi. low-latency polling daemon, dynamic backlight boosting, phh gsi integration, persist calibration recovery.
 
-**[moloo4ni.github.io](https://github.com/moloo4ni/moloo4ni.github.io)** — personal site hosting pathologiarium (lore-driven wiki), easybytebeat (bytebeat playground), iklinux (source-based distro, BusyBox + dash + Irek), and a bio card.
+**[moloo4ni.github.io](https://github.com/moloo4ni/moloo4ni.github.io)** — personal site hosting pathologiarium (lore-driven wiki) and a bio card.
