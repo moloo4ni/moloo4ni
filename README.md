@@ -11,23 +11,7 @@ env - arch linux · vscodium · kitty · cargo
 
 ## projects
 
-**[cabbage](https://github.com/moloo4ni/cabbage)** — local-first markdown notes app (tauri v2 + rust + svelte 4).  
-stores notes as plain `.md` files in a git vault — no proprietary database or cloud lock-in.  
-license: MPL 2.0. ci: cargo check + clippy + svelte-check.
-
-stack: tauri 2, svelte 4, typescript 5, vite 6, codemirror 6, git2 0.21 (vendored libgit2), lucide-svelte, d3-force.
-
-features:
-- codemirror 6 editor with wiki-link autocomplete
-- backlinks panel with incremental index
-- note history with per-file version restore
-- force-directed graph view (click to navigate)
-- full-text search (ctrl+p / cmd+p)
-- git sync via native libgit2 (no system git dependency)
-- dark theme (github dark palette, persisted, auto-detect)
-- vault auto-restore on startup
-
-status: all 16 initial issues closed. svelte 5 migration deferred (milestone created, not started).
+**[cabbage](https://github.com/moloo4ni/cabbage)** — local-first markdown notes app (tauri v2 + rust + svelte 4). stores notes as plain `.md` in a git vault — no proprietary database or cloud lock-in. codemirror 6, backlinks, graph view, full-text search, git sync, dark theme. MPL 2.0.
 
 **[statusbar-fix-obsidian](https://github.com/moloo4ni/statusbar-fix-obsidian)** — magisk/ksu/apatch module fixing status bar height, qs offsets and lock screen layout on redmi note 14 pro 4g (obsidian) running lineageos gsi. dual rro overlays, notch killer, amoled burn-in protection, gsi conflict resolution.
 
