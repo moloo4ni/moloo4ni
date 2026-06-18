@@ -11,9 +11,9 @@ env - arch linux · kitty · cargo
 
 ## github pages
 
-**[/bio](https://moloo4ni.github.io/bio)** — minimal bio card with skills & links
+**[bio](https://moloo4ni.github.io/bio)** — minimal bio card with skills & links
 
-**[/pathologiarium](https://moloo4ni.github.io/pathologiarium)** — lore-driven fictional disease wiki (35+ entries, search autocomplete)
+**[pathologiarium](https://moloo4ni.github.io/pathologiarium)** — lore-driven fictional disease wiki (35+ entries, search autocomplete)
 
 ## projects
 
